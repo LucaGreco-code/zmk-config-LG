@@ -8,11 +8,11 @@
 
         default_layer {
             bindings = <
-                &kp ESC   &kp N1   &kp N2   &kp N3   &kp N4   &kp N5   &kp N6   &kp N7   &kp N8   &kp N9   &kp N0   &kp MINUS
-                &kp TAB   &kp Q    &kp W    &kp E    &kp R    &kp T    &kp Y    &kp U    &kp I    &kp O    &kp P    &kp LBKT
-                &kp LSHIFT &kp A   &kp S    &kp D    &kp F    &kp G    &kp H    &kp J    &kp K    &kp L    &kp SEMI &kp RBKT
-                &kp LCTRL &kp Z    &kp X    &kp C    &kp V    &kp B    &kp N    &kp M    &kp COMMA &kp DOT &kp SLASH &kp RSHIFT
-                &kp LGUI  &kp LALT &kp SPACE &kp ENTER &mo 1  &kp DEL
+                &kp ESC   &kp N1   &kp N2   &kp N3   &kp N4   &kp N5   &kp N6   &kp N7   &kp N8   &kp N9   &kp N0   &kp BSPC
+                &kp TAB   &kp Q    &kp W    &kp E    &kp R    &kp T    &kp Y    &kp U    &kp I    &kp O    &kp P    &kp SLASH
+                &kp LSHIFT &kp A   &kp S    &kp D    &kp F    &kp G    &kp H    &kp J    &kp K    &kp L    &kp LEFT_BRACKET &kp RIGHT_BRACKET
+                &kp LCTRL &kp Z    &kp X    &kp C    &kp V    &kp B    &kp N    &kp M    &kp COMMA &kp DOT &kp EQUAL &kp MINUS
+                &kp LGUI  &kp LALT &kp SPACE &kp ENTER &mo 1  &kp CAPSLOCK
             >;
         };
 
@@ -20,9 +20,9 @@
             display-name = "Lower Layer";
             bindings = <
                 &trans &kp F1 &kp F2 &kp F3 &kp F4 &kp F5 &kp F6 &kp F7 &kp F8 &kp F9 &kp F10 &trans
-                &bt BT_CLR &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4 &trans &trans &trans &trans &trans
-                &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans
-                &trans &trans &trans &trans &trans &trans &trans &trans &trans &kp LEFT &kp DOWN &kp RIGHT
+                &bt BT_CLR &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4 &trans &trans &trans &kp F11 &kp F12
+                &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &kp UP &trans
+                &kp SINGLE_QUOTE &kp LEFT_BRACKET &kp EQUAL &kp SEMICOLON &kp BACKSLASH &trans &trans &trans &trans &kp LEFT &kp DOWN &kp RIGHT
                 &kp LGUI &kp LALT &kp SPACE &kp ENTER &trans &kp RALT
             >;
         };
