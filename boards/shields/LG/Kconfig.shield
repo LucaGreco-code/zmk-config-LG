@@ -1,5 +1,5 @@
-config SHIELD_BUG54_LEFT
+config SHIELD_LG_LEFT
     def_bool $(shields_list_contains,LG_left)
 
-config SHIELD_BUG54_RIGHT
+config SHIELD_LG_RIGHT
     def_bool $(shields_list_contains,LG_right)
